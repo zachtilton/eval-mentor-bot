@@ -4,6 +4,9 @@ dependencies:
   '@microsoft/fetch-event-source':
     specifier: ^2.0.1
     version: 2.0.1
+  '@next/swc-darwin-x64':
+    specifier: ^13.4.12
+    version: 13.4.12
   '@pinecone-database/pinecone':
     specifier: ^0.0.10
     version: 0.0.10
@@ -397,6 +400,13 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
+
+  /@next/swc-darwin-x64@13.4.12:
+    resolution: {integrity: sha512-WRvH7RxgRHlC1yb5oG0ZLx8F7uci9AivM5/HGGv9ZyG2Als8Ij64GC3d+mQ5sJhWjusyU6T6V1WKTUoTmOB0zQ==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [darwin]
+    dev: false
 
   /@next/swc-freebsd-x64@13.2.3:
     resolution: {integrity: sha512-rK6GpmMt/mU6MPuav0/M7hJ/3t8HbKPCELw/Uqhi4732xoq2hJ2zbo2FkYs56y6w0KiXrIp4IOwNB9K8L/q62g==}

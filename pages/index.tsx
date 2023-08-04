@@ -165,7 +165,7 @@ export default function Home() {
       <Layout>
         <div className="mx-auto flex flex-col gap-4">
           <h1 className="text-2xl font-bold leading-[1.1] tracking-tighter text-center">
-            EvaluAIndy: A Chatbot Mentor for Young and Emerging Evaluators
+            EvalCompass: A Chatbot Mentor for Young and Emerging Evaluators
           </h1>
           <main className={styles.main}>
             <div className={styles.cloud}>
